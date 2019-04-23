@@ -310,6 +310,7 @@ class LstmRNN(object):
         plt.figure(figsize=(12, 6))
         plt.plot(days, truths, label='truth')
         plt.plot(days, preds, label='pred')
+        # plt.plot(days, truths-preds, label= 'diff')
         plt.legend(loc='upper left', frameon=False)
         plt.xlabel("day")
         plt.ylabel("normalized price")

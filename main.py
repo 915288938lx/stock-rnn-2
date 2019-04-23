@@ -21,7 +21,7 @@ flags.DEFINE_float("learning_rate_decay", 0.99, "Decay rate of learning rate. [0
 flags.DEFINE_integer("init_epoch", 5, "Num. of epoches considered as early stage. [5]")
 flags.DEFINE_integer("max_epoch", 50, "Total training epoches. [50]")
 flags.DEFINE_integer("embed_size", None, "If provided, use embedding vector of this size. [None]")
-flags.DEFINE_string("stock_symbol", "SP500", "Target stock symbol [None]")
+flags.DEFINE_string("stock_symbol", "sh999999", "Target stock symbol [None]")
 flags.DEFINE_integer("sample_size", 4, "Number of stocks to plot during training. [4]")
 flags.DEFINE_boolean("train", True, "True for training, False for testing [False]")
 
